@@ -1,0 +1,250 @@
+/* общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.top-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.top-nav a:hover {
+    color: #ff4500; /* изменяем цвет текста при наведении */
+}
+
+/* Добавляем стили для основного контента */
+.main-content {
+    background-color: #f9f9f9;
+    padding: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.content-text {
+    text-align: left;
+}
+
+.content-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.content-text h2 {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.content-text p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.request-access-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #000000;
+    color: #fafafa;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.request-access-btn:hover {
+    background-color: #000000;
+}
+
+.features-content {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    width: 30%; /* чтобы элементы занимали примерно одинаковое пространство */
+}
+
+.plug {
+    width: 100px;
+}
+
+.feature-text {
+    text-align: left;
+}
+
+.timeline-content {
+    padding: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.timeline-text {
+    max-width: 60%; /* Максимальная ширина текста для удобного чтения */
+    text-align: left;
+}
+
+.timeline-image {
+    margin-left: 20px; /* Примерный отступ для размещения изображения от текста */
+}
+
+.timeline-content-2 {
+    padding: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.timeline-text-2 {
+    max-width: 60%; /* Максимальная ширина текста для удобного чтения */
+    text-align: left;
+}
+
+.timeline-image-2 {
+    margin-left: 20px; /* Примерный отступ для размещения изображения от текста */
+}
+
+.timeline-content-3 {
+    padding: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.timeline-text-3 {
+    max-width: 60%; /* Максимальная ширина текста для удобного чтения */
+    text-align: left;
+}
+
+.timeline-image-3 {
+    margin-left: 20px; /* Примерный отступ для размещения изображения от текста */
+}
+
+.black-background {
+    background-color: black;
+    padding: 20px;
+}
+
+.mission-statement {
+    color: white;
+    position: relative;
+}
+
+.subtext {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: right; /* использование !important для переопределения других стилей */
+    margin-bottom: 60px; /* увеличиваем отступ снизу */
+    margin-left: 25vw;
+}
+
+.read-mission-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #1E90FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px; /* отступ сверху */
+    margin-bottom: 60px; /* отступ внизу */
+  }
+
+
+
+  .work-with-us, .sign-up {
+    width: 45%;
+  }
+  
+  .subtext-2 {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #000000;
+  }
+  
+  .email-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+  }
+  
+  input[type="email"], button {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #000000;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    display: inline; /* Устанавливаем абзацы в инлайновый режим */
+    margin: 0 10px; /* Добавляем отступы между надписями */
+}
